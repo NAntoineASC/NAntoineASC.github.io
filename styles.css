@@ -1,0 +1,121 @@
+img{
+	width: 100px;
+}
+
+h1{
+	font-size: 65px;
+	margin:0;
+  	padding:0;
+}
+
+body{
+	text-align: center;
+	font-family: "helvetica neue";
+	background-color: #FFDDAC;
+	margin:0;
+  	padding:0;
+}
+
+#title{
+	transform: translate(0,100%);
+	font-size: 5vw
+}
+
+#am{
+	transform: translate(0, 100px);
+	font-size: 2vw;
+}
+
+#mw{
+	transform: translate(0, 100px);
+	font-size: 2vw;
+}
+
+#ct{
+	transform: translate(0, 100px);
+	font-size: 2vw;
+}
+
+.nav{
+	background-color: #FFDDAC;
+	height: 100vh;
+	width: 100%;
+	margin:0;
+  	padding:0;
+  	font-size: 30px;
+
+}
+
+h2{
+	font-size: 20px;
+	margin:0;
+  	padding:0;
+}
+
+.about_me{
+	background-color: #FFD79D;
+	height: 100vh;
+	width: 100%;
+	margin:0;
+  	padding:0;
+  	font-size: 3.25vw;
+
+
+}
+
+#amtitle{
+	transform: translate(0, 25%);
+	font-size: 1.5vw
+}
+
+#amtxt{
+	transform: translate(0, 25%);
+}
+
+h3{
+	font-size: 20px;
+	margin:0;
+  	padding:0;
+}
+
+.my_work{
+	background-color: #F8C882;
+	height: 100vh;
+	width: 100%;
+	margin:0;
+  	padding:0;
+  	font-size: 3.25vw;
+
+}
+
+#mwtitle{
+	font-size: 1.5vw
+}
+
+#workemojis{
+	font-size: 5.5vw
+}
+
+.contact{
+	background-color: #C8A26A;
+	height: 100%;
+	width: 100%;
+	margin:0;
+  	padding:0;
+  	font-size: 45px;
+
+}
+
+#cntitle{
+	font-size: 1.5vw
+}
+
+h4{
+	font-size: 20px;
+	margin:0;
+  	padding:0;
+}
+
+img{
+	width: 100px
+}

@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <title>Nate's Website!</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"</script>
+	<<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+	<title>Nate Antoine</title>
 </head>
 <body>
-<p><center><b><font size="15">Welcome to Nate's Site!</font></b></center></p>
-<p><center><b><font size="5">Click Kanye</font></b></center></p>
-<center><a href="https://pbs.twimg.com/profile_images/443464002010484737/KM-y40in.jpeg"><img src="https://pbs.twimg.com/profile_images/700037032295460864/giz4Bxlp.jpg" alt="HTML5 Icon" style="width:200px height:200px;"> </center> </a>
+	<div class="nav">
+	<h1 id=title><a style="color:black; text-decoration:none">NATE ANTOINE</a></h1>
+	<p id=am><a style="color:black; text-decoration:none" href="#">ABOUT ME</a></p>
+	<p id=mw><a style="color:black; text-decoration:none" href="#">MY WORK</a></p>
+	<p id=ct><a style="color:black; text-decoration:none" href="#">CONTACT</a></p>
+	</div>
+	<div class ="about_me">
+	<h2 id="amtitle"><a style="color:black; text-decoration:none">ABOUT ME</a></h2>
+	<p id=amtxt><a style="color:black; text-decoration:none"> I'm a 17 year old creative from New York City. I like to call myself a "visionary creator and programmer," because it captures my vision for creativity as well as my passion for computer science. My skills range in a multitude of fields from programming to photography to graphic design to non-technical skills like creative direction.</a></p>
+	</div>
+	<div class="my_work">
+	<h3 id="mwtitle"><a style="color:black; text-decoration:none">MY WORK</a></h3>
+	<p id=myworktext><!-- I run a personal brand called NATE+ that features all of my professional work. You can find it here. --></p>
+	&nbsp;
+	&nbsp;
+	<p></p>
+	&nbsp;
+	<p></p>
+	<p id="workemojis"> <a style="color:black; text-decoration:none"> <span class="glyphicon glyphicon-phone" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://photos.nateplus.co/"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://graphics.nateplus.co/"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://video.nateplus.co/"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none"> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://design.nateplus.co/"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://music.nateplus.co/"><span class="glyphicon glyphicon-music" aria-hidden="true"></span></a> &nbsp;
+						<a style="color:black; text-decoration:none" href="http://nateplus.co/"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a> &nbsp;
+						</p>
+	</div>
+	<div class="contact">
+	<h4 id=cntitle><a style="color:black; text-decoration:none">CONNECT WITH ME</a></h4>
+		&nbsp;
+	<p id=smedia><a href="mailto:nateantoinenyc@gmail.com"><img src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Mail-512.png"></a> <a href="https://www.facebook.com/noihara"><img src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Facebook-512.png"></a> <a href="https://www.instagram.com/nateantoine"><img src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/Intsagram-512.png"></a> <a href="https://www.linkedin.com/in/nateantoine"><img src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-512.png"></a></p>
+	</div>
+	<script>
+	$("#am").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".about_me").offset().top},
+        'slow');
+});
+	$("#mw").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".my_work").offset().top},
+        'slow');
+});
+	$("#ct").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact").offset().top},
+        'slow');
+});
+	</script>
 </body>
 </html>
